@@ -8,7 +8,7 @@ int main(int argc, char** argv)
   double PI25DT = 3.141592653589793238462643;
   double mypi, pi, h, sum, x;
 
-  MPI_Init(&argc, &argv);
+  //MPI_Init(&argc, &argv);
   MPI_Comm_size(MPI_COMM_WORLD, &numprocs);
   MPI_Comm_rank(MPI_COMM_WORLD, &myid);
 
